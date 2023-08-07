@@ -1,83 +1,120 @@
-.header {
-    display: flex;
-    font-weight: 200;
-    font-family: cursive;
-    font-size: medium;
+ html {
+     scroll-behavior: smooth;
+ }
 
-}
+ .background-image {
+     background-position: center center;
+     background-repeat: no-repeat;
+     background-attachment: fixed;
+     background-size: cover;
+
+ }
+
+ .header {
+     display: flex;
+     font-weight: 200;
+     font-family: cursive;
+     font-size: medium;
+
+ }
 
 
-.header-list {
-    padding-right: 80px;
-    padding-left: 50px;
-    color: blue;
-}
+ .header-list {
+     padding-right: 144px;
+     padding-left: 50px;
+     color: blue;
+ }
 
-#logo {
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
-}
+ #logo {
+     width: 150px;
+     height: 150px;
+     border-radius: 50%;
+ }
 
 
-.button {
-    color: ghostwhite;
-    background-color: rgba(255, 0, 0, 0.747);
-    width: 100px;
-    height: 50px;
-}
+ .button {
+     color: ghostwhite;
+     background-color: rgba(255, 0, 0, 0.747);
+     width: 100px;
+     height: 50px;
+ }
 
-.button:hover {
-    background-color: red;
-}
+ .button:hover {
+     background-color: red;
+ }
 
-#button-element {
-    display: flex;
-    justify-content: center;
 
-}
 
-.about {
-    display: flex;
-    justify-content: space-between;
-    font-weight: 200;
-    font-size: medium;
-}
+ #button-element {
+     display: flex;
+     justify-content: center;
 
-#gallery {
-    padding-top: 20px;
-}
+ }
 
-#galler {
-    padding-top: 20px;
-}
+ .about {
+     display: flex;
+     justify-content: space-between;
+     font-weight: 200;
+     font-size: medium;
+ }
 
-#image {
-    width: 500px;
-}
+ #gallery {
+     padding-top: 20px;
+ }
 
-@media all and (max-width: 1000px) {
-    .header-list {
-        padding-right: 20px;
-        padding-left: 20px;
-    }
+ #galler {
+     padding-top: 20px;
+ }
 
-    #image {
-        width: 100px;
-        padding-left: 10%;
+ #image {
+     width: 500px;
+ }
 
-    }
+ #footer {
+     display: flex;
+     justify-content: center;
+     background-color: #000;
+     color: #fff;
+ }
 
-    .cake {
-        width: 150px;
-    }
+ @media all and (max-width: 1080px) {
+     .header-list {
+         padding-right: 20px;
+         padding-left: 10px;
+     }
 
-    .cake1 {
-        width: 150px;
-    }
+     #image {
+         width: 100px;
+         padding-left: 10%;
 
-    .cake2 {
-        width: 100px;
-    }
+     }
 
-}
+     .cake {
+         width: 120px;
+     }
+
+     .cake1 {
+         width: 100px;
+     }
+
+     .cake2 {
+         width: 100px;
+     }
+
+
+     .background-image {
+         background-position: center center;
+         background-repeat: no-repeat;
+         background-attachment: fixed;
+         background-size: cover;
+
+     }
+
+     #head1 {
+         display: none;
+     }
+
+     #head2 {
+         display: none;
+     }
+ }
