@@ -23,6 +23,7 @@
      padding-right: 144px;
      padding-left: 50px;
      color: blue;
+     
  }
 
  #logo {
@@ -60,11 +61,9 @@
 
  #gallery {
      padding-top: 20px;
+     
  }
-
- #galler {
-     padding-top: 20px;
- }
+ 
 
  #image {
      width: 500px;
@@ -77,28 +76,29 @@
      color: #fff;
  }
 
- @media all and (max-width: 1000px) {
+ @media all and (max-width: 500px) {
      .header-list {
          padding-right: 20px;
          padding-left: 10px;
      }
 
      #image {
-         width: 100px;
+         width: 130px;
          padding-left: 10%;
 
      }
 
      .cake {
-         width: 120px;
+         width: 160px;
      }
 
      .cake1 {
-         width: 100px;
+         display: none;
+
      }
 
      .cake2 {
-         width: 100px;
+         display: none;
      }
 
 
@@ -124,4 +124,102 @@
         background-color: #000000d2;
         color: #fff;
     }
+
+    
+ .header-list {
+     
+    font-size: xx-small;
+}
+ }
+
+
+  /* second responsive setting */
+ @media (min-width:500.1px) and (max-width: 700px){
+    .header-list {
+        padding-right: 40px;
+        padding-left: 10px;
+    }
+
+    #image {
+        width: 216px;
+        padding-left: 10%;
+
+    }
+
+    .cake {
+        width: 237px;
+    }
+
+    .cake1 {
+        display: none;
+    }
+
+    .cake2 {
+        display: none;
+    }
+
+
+    .background-image {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+    }
+
+    
+
+    #footer {
+       display: flex;
+       justify-content: center;
+       background-color: #000000d2;
+       color: #fff;
+   }
+ }
+
+
+
+ /* third responsive setting */
+ @media (min-width:701px) and (max-width: 1000px){
+    .header-list {
+        padding-right: 40px;
+        padding-left: 50px;
+    }
+
+    #image {
+        width: 230px;
+        padding-left: 10%;
+
+    }
+
+    .cake {
+        width: 230px;
+    }
+
+    .cake1 {
+        width: 170px;  
+      }
+
+    .cake2 {
+  width: 170px;
+    }
+
+
+    .background-image {
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+
+    }
+
+     
+
+    
+    #footer {
+       display: flex;
+       justify-content: center;
+       background-color: #000000d2;
+       color: #fff;
+   }
  }
