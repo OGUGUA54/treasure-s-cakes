@@ -32,6 +32,13 @@
      border-radius: 50%;
  }
 
+ #video {
+    display: flex;
+    justify-content: center;
+     
+ }
+ 
+
 
  .button {
      color: ghostwhite;
@@ -81,7 +88,12 @@
          padding-right: 2px;
          padding-left: 10px;
         
+         
         
+     }
+
+     #vid{
+width: 320px;
      }
 
      #colored-cake{
